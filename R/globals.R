@@ -1,0 +1,10 @@
+utils::globalVariables(
+  c(
+  "w.alpha",
+  "id",
+  "adj.alpha",
+  "sig",
+  "adj.w",
+  '.'
+  )
+)

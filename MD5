@@ -1,8 +1,8 @@
-948dc423c03e70a5e2939ad015a91d29 *DESCRIPTION
+6d7932e92d9ebbf5e679a436ac3f8adf *DESCRIPTION
 d39aefa74b8544cc74d9c2862568198b *NAMESPACE
 df83fcaf172d5df11020c6af8b64de11 *R/WHC.R
 310ce2827029d95e7fb5292eeaab349d *R/corr.Bonferroni.R
-8d7073af906e051cb500949657f9bbde *R/corr.WHC.R
+1a2e014f1f328530e54105498da5ed77 *R/corr.WHC.R
 c88ef5c8cc6a5efdd3a6641872ab228d *R/corrMCT-package.R
 264e02503be90464c4e58edd91fef048 *R/corrmat_AR1.R
 52a302cb805c61769e723c1367deef6a *R/corrmat_CS.R
@@ -13,7 +13,7 @@ b56ff2b193ecba52f9ec7f3b10cca008 *R/utils-pipe.R
 b943a1546a1e17be4eea235ec7b4616b *build/partial.rdb
 c63bcd1e69db9d18d16c1161e7e36495 *man/WHC.Rd
 98466e789ff6b22849ca9c46e4afea4e *man/corr.Bonferroni.Rd
-bcdb9374e336715a6c2969fbc59b7dbd *man/corr.WHC.Rd
+27bbb3d193d15e129a802577545055ae *man/corr.WHC.Rd
 58c8b40e7a2cb35324f553ae17d7c503 *man/corrMCT-package.Rd
 f252a7a87997c1a71ac36b5947e61bfa *man/corrmat_AR1.Rd
 704b2228c02acbb5a68df7db0f5d0bfb *man/corrmat_CS.Rd

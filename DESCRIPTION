@@ -1,7 +1,7 @@
 Package: corrMCT
 Type: Package
 Title: Correlated Weighted Hochberg
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(
     person(given = "Xin-Wei",
            family = "Huang",
@@ -24,7 +24,7 @@ Encoding: UTF-8
 RoxygenNote: 7.3.2
 Imports: dplyr, glue, magrittr, Matrix, tibble
 NeedsCompilation: no
-Packaged: 2024-07-24 20:29:13 UTC; huanxinw
+Packaged: 2024-07-30 20:18:09 UTC; huanxinw
 Author: Xin-Wei Huang [aut, cre] (<https://orcid.org/0000-0003-4238-3081>),
   Jia Hua [ctb],
   Bhramori Banerjee [ctb],
@@ -33,4 +33,4 @@ Author: Xin-Wei Huang [aut, cre] (<https://orcid.org/0000-0003-4238-3081>),
   Merck & Co., Inc [cph, fnd]
 Maintainer: Xin-Wei Huang <xinweihuangstat@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-07-28 21:00:02 UTC
+Date/Publication: 2024-08-02 12:50:03 UTC

@@ -4,7 +4,7 @@
 \alias{corr.WHC}
 \title{Correlation adjusted weighted Hochberg method}
 \usage{
-corr.WHC(p, w, corr.mat, theta = 0.2, gamma = 0.3, ACF = NULL, alpha = 0.05)
+corr.WHC(p, w, corr.mat, a = 0.5, b = 0.6, penalty = NULL, alpha = 0.05)
 }
 \arguments{
 \item{p}{A numeric vector. A length \eqn{m} P-value vector from multiple tests.}
@@ -18,16 +18,13 @@ the sum of weight is not 1.}
 is the theoretical assumption, however, it is robust to run with some negative
 elements in the correlation matrix.}
 
-\item{theta}{A numeric number. \eqn{\theta \in (0,1)} is the shape parameter of alpha conserving function.
-\eqn{\theta = 0} is a straight line \eqn{f(\rho) = 1-\gamma\rho}. For \eqn{\theta > 0}, greater the value, more
-aggressive decreasing it allows. Default \code{theta=0.10} is a relative conservative suggestion. Details see
-Huang et al (2024+).}
+\item{a}{A numeric number. \eqn{a \in (0,1)} determines the greatest penalty on weight,
+Default \code{a=0.5}. Details see Huang et al (2024+).}
 
-\item{gamma}{A numeric number. \eqn{\gamma \in (0,1)} is the scale parameter of alpha conserving function.
-\eqn{\gamma = 1} makes the function approach 1 when \eqn{\rho = 1}. \eqn{\gamma < 1} sets a bound to prevent
-too much penalty on weight. Default \code{theta=0.50} is a moderate suggestion. Details see Huang et al (2024+).}
+\item{b}{A numeric number. \eqn{b \in (0,1)} is the shape parameter of the penalty function.
+\eqn{b = 1} produce a linear function.}
 
-\item{ACF}{A function. User can define their own alpha conserving function.
+\item{penalty}{A function. User can define their own penalty function.
 The basic rule is the function must be monotone decreasing from 0 to 1,
 and range from 1 to \eqn{a} where \eqn{a \in (0,1)}. A convex function is recommended.
 Concave function can produce result, but have no meaning on alpha conserving.}
